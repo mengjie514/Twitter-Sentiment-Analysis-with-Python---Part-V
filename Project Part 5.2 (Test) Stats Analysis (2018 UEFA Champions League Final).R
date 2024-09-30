@@ -149,26 +149,26 @@ summary(res.aov)
 # period           1    183  182.88   941.9  <2e-16 ***
 # Residuals   215840  41909    0.19                   
 # ---
-# Signif. codes:  0 ¡®***¡¯ 0.001 ¡®**¡¯ 0.01 ¡®*¡¯ 0.05 ¡®.¡¯ 0.1 ¡® ¡¯ 1
+# Signif. codes:  0 Â¡Â®***Â¡Â¯ 0.001 Â¡Â®**Â¡Â¯ 0.01 Â¡Â®*Â¡Â¯ 0.05 Â¡Â®.Â¡Â¯ 0.1 Â¡Â® Â¡Â¯ 1
 res.aov <- aov(pos~ period, data = my_data)
 summary(res.aov)
 #                 Df Sum Sq Mean Sq F value Pr(>F)    
 # period           1      7   7.385   160.1 <2e-16 ***
 # Residuals   215840   9954   0.046                   
 # ---
-# Signif. codes:  0 ¡®***¡¯ 0.001 ¡®**¡¯ 0.01 ¡®*¡¯ 0.05 ¡®.¡¯ 0.1 ¡® ¡¯ 1
+# Signif. codes:  0 Â¡Â®***Â¡Â¯ 0.001 Â¡Â®**Â¡Â¯ 0.01 Â¡Â®*Â¡Â¯ 0.05 Â¡Â®.Â¡Â¯ 0.1 Â¡Â® Â¡Â¯ 1
 res.aov <- aov(neg ~ period, data = my_data)
 summary(res.aov)
 #                 Df Sum Sq Mean Sq F value Pr(>F)    
 # period           1     26  25.869     934 <2e-16 ***
 # Residuals   215840   5978   0.028                   
 # ---
-# Signif. codes:  0 ¡®***¡¯ 0.001 ¡®**¡¯ 0.01 ¡®*¡¯ 0.05 ¡®.¡¯ 0.1 ¡® ¡¯ 1
+# Signif. codes:  0 Â¡Â®***Â¡Â¯ 0.001 Â¡Â®**Â¡Â¯ 0.01 Â¡Â®*Â¡Â¯ 0.05 Â¡Â®.Â¡Â¯ 0.1 Â¡Â® Â¡Â¯ 1
 res.aov <- aov(neu ~ period, data = my_data)
 summary(res.aov)
 #                 Df Sum Sq Mean Sq F value Pr(>F)    
 # period           1      7   6.536     112 <2e-16 ***
 # Residuals   215840  12599   0.058                   
 # ---
-# Signif. codes:  0 ¡®***¡¯ 0.001 ¡®**¡¯ 0.01 ¡®*¡¯ 0.05 ¡®.¡¯ 0.1 ¡® ¡¯ 1
+# Signif. codes:  0 Â¡Â®***Â¡Â¯ 0.001 Â¡Â®**Â¡Â¯ 0.01 Â¡Â®*Â¡Â¯ 0.05 Â¡Â®.Â¡Â¯ 0.1 Â¡Â® Â¡Â¯ 1
 
